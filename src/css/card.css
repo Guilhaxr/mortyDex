@@ -1,0 +1,56 @@
+.container_card {
+  display: flex;
+  justify-content: center;
+  margin: 20px 20px 20px 20px;
+  height: 350px;
+  width: 250px;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  border-style: solid;
+  background-color: rgb(255, 255, 255, 0.92);
+
+  border-color: white;
+  box-shadow: inset 0px 0px 16px 2px #ffffff;
+}
+
+.status_icon_dead {
+  height: 0.5rem;
+  width: 0.5rem;
+  margin-right: 0.375rem;
+  background: rgb(214, 61, 46);
+  border-radius: 50%;
+}
+
+.status_icon_alive {
+  height: 0.5rem;
+  width: 0.5rem;
+  margin-right: 0.375rem;
+  background: rgb(85, 204, 68);
+  border-radius: 50%;
+}
+
+.card_image {
+  height: 210px;
+  border-radius: 50%;
+  filter: saturate(2);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container_button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.button_loadMore {
+  border-style: solid;
+  background-color: rgb(255 255 255 / 30%);
+  border-color: white;
+  box-shadow: inset 0px 0px 16px 2px #ffffff;
+  height: 40px;
+  border-radius: 10px;
+  width: 200px;
+  cursor: pointer;
+}
